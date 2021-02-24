@@ -35,4 +35,12 @@ O(n+1000) = 0(n)
 //just choose the term thats bigger n squared is bigger
 O(n^2 +n) = O(n^2)
 
-O(n + 500 + n^3 + n^2)
+O(n + 500 + n^3 + n^2)= O(n^3)
+
+
+//Putting it all together apply the product rule followed by the sum rule
+
+O(5n^2 + 100n + 17)
+//apply product rule and drop all constants
+
+O(n^2 + n + 1)
