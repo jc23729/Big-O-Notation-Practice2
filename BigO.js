@@ -4,7 +4,9 @@
 // O(n + 10)
 0(n)
 // O(100 * n)
+0(n)
 // O(25)
+0(1)
 // O(n^2 + n^3)
 // O(n + n + n + n)
 // O(1000 * log(n) + n)
@@ -42,5 +44,20 @@ O(n + 500 + n^3 + n^2)= O(n^3)
 
 O(5n^2 + 100n + 17)
 //apply product rule and drop all constants
+O(n^2 + n + 1) = 
+// then we just use the sume rule to choose the biggest one
+O(n^2 + n + 1) = O(n^2)
 
-O(n^2 + n + 1)
+O(n/3)^6 + 10n))
+//Product rule// =
+O(n^6 +n)=
+O(n^6)
+
+///////////////////////////////Time Complexity/////////////////////////////////////////
+Time complexity Example 1
+
+const foo = (n) => {
+    for (let a = 0; a < n; a++) {
+        console.log(a);
+    }
+}
