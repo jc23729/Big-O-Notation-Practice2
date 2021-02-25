@@ -1,21 +1,3 @@
-// Step One: Simplifying Expressions
-// Simplify the following big O expressions as much as possible:
-//Product rule If Big o is the product of multiple terms, drop constant terms
-// O(n + 10)
-0(n)
-// O(100 * n)
-0(n)
-// O(25)
-0(1)
-// O(n^2 + n^3)
-// O(n + n + n + n)
-// O(1000 * log(n) + n)
-// O(1000 * n * log(n) + n)
-// O(2^n + n^2)
-// O(5 + 3 + 1)
-// O(n + n^(1/2) + n^2 + n * log(n)^10)
-
-
 ////////////////////Product Rule///////////////////////////////////
 //constanst are numbers
 
@@ -52,12 +34,21 @@ O(n/3)^6 + 10n))
 //Product rule// =
 O(n^6 +n)=
 O(n^6)
-
 ///////////////////////////////Time Complexity/////////////////////////////////////////
 Time complexity Example 1
 
+//this for loop has given us a loop of O(n)
 const foo = (n) => {
     for (let a = 0; a < n; a++) {
         console.log(a);
     }
-}
+    // focusing on b loop  O(n) and c  O(n)
+    for (let b = 0; b < n; b++) {
+        for (let c = 0; c < n; c++) {
+            console.log(b + "," + c)
+        }
+    }
+};
+
+foo(10)
+
