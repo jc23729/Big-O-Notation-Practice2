@@ -52,3 +52,5 @@ const foo = (n) => {
 
 foo(10)
 
+// The biggest factors that affect Big O are the number of steps 
+// and the number of iterations the program takes in repeating structures like the for loop.
