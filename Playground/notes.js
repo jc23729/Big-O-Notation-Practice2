@@ -58,3 +58,6 @@ foo(10)
 // If you are iterating over a single collection of elements using one loop, then run-time will be O(n).
 
 // If you are iterating over half of the collection, it will be O(n/2) -> O(n).
+
+// If you are iterating over two separate collections using two different loops, so it will become O(n+m) -> O(n).
+
