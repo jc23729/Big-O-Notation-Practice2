@@ -62,3 +62,5 @@ foo(10)
 // If you are iterating over two separate collections using two different loops, so it will become O(n+m) -> O(n).
 
 // If you are iterating over two different collections using two nested loops, so it will become O(n*m) -> O(n²).
+
+// If you are sorting a collection, this becomes O(n*log(n)).
